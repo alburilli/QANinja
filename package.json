@@ -1,0 +1,24 @@
+{
+  "name": "zombieplus",
+  "version": "1.0.0",
+  "description": "projeto de testes automatizados com nigthwatch",
+  "main": "index.js",
+  "scripts": {
+    "testwindows": ".\\node_modules\\.bin\\nightwatch.cmd",
+    "testlinux": "./node_modules/.bin/nightwatch"
+  },
+  "keywords": [
+    "qaninja",
+    "nodejs",
+    "webdriver",
+    "nightwatch",
+    "chromdriver",
+    "geckodriver"
+  ],
+  "author": "Alburilli",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^77.0.0",
+    "nightwatch": "^1.2.4"
+  }
+}
